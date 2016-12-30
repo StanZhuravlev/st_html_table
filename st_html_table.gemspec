@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
 в частности, в составе библиотеки cli_application}
   spec.homepage      = "https://github.com/StanZhuravlev/st_html_table"
   spec.license       = "MIT"
-  spec.required_ruby_version = '~> 2.2.1'
+  spec.required_ruby_version = '> 2.2.1'
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
   # delete this section to allow pushing this gem to any host.
@@ -28,6 +28,6 @@ Gem::Specification.new do |spec|
   spec.files         = Dir.glob("{lib,test}/**/*") + %w(LICENSE.txt README.md)
   spec.require_paths = ["lib", "lib/st_html_table"]
 
-  spec.add_development_dependency "bundler", "~> 1.9"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "bundler", ">= 1.9"
+  spec.add_development_dependency "rake", ">= 10.0"
 end
